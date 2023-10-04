@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" type="image/icon" href="favicon/favicon.ico">
+    <title>Travel Chan</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header-container">
+        <a href="index.html"><img src="picss/logocroppedv2.png" alt="Logo" class="logo"></a>
+        <h1 style="color: white">Travel Chan</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cuisine.html">Cuisine</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+    <div class="containerheh">
+        <h2>Welcome to Our Travelling Website Agency</h2>
+        <p>Explore the most beautiful travel destinations in the world.</p>
+        <ul>
+            <li><a href="#europe">Europe</a></li>
+            <li><a href="#asia">Asia</a></li>
+            <li><a href="#america">North America</a></li>
+        </ul>
+        <hr>
+            <section class="container-slider">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <img id="slide-1" src="picss/places/Visit any place.png" alt="places">
+                        <img id="slide-2" src="picss/places/Learn about the culture.png" alt="culture">
+                        <img id="slide-3" src="picss/places/Explore the activities.png" alt="activities">
+                    </div>
+                    <div class="slider-nav">
+                        <a href="#slide-1"></a>
+                        <a href="#slide-2"></a>
+                        <a href="#slide-3"></a>
+                    </div>
+                </div>
+            </section>
+        <hr>
+        <h2 id="europe">Europe</h2>
+        <p>Europe is known for its rich history and diverse cultures.</p>
+        <img src="picss/places/europe.jpg" width="800" alt="Europe">
+        <br></br>
+        <a href="europe.html">Learn more about Europe</a>
+        <hr>
+        <h2 id="asia">Asia</h2>
+        <p>Asia offers a blend of ancient traditions and modern marvels.</p>
+        <img src="picss/places/asia.jpg" width="800" alt="Asia">
+        <br></br>
+        <a href="asia.html">Learn more about Asia</a>
+        <hr>
+        <h2 id="america">North America</h2>
+        <p>North America boasts stunning concrete jungles and street culture.</p>
+        <img src="picss/places/america.jpg" width="800" alt="North America">
+        <br></br>
+        <a href="america.html">Learn more about North America</a>
+    </div>
+    
+    <div class="containerheh">
+        <h2><em>Featured</em> Travel Destinations</h2>
+        <table class="destination-table">
+            <tr>
+                <th>Destination</th>
+                <th>Country</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td><strong>Paris</strong></td>
+                <td><em>France</em></td>
+                <td>The <em>romantic</em> capital of the world, known for the Eiffel Tower and delicious pastries.</td>
+            </tr>
+            <tr>
+                <td><strong>Phuket</strong></td>
+                <td><em>Thailand</em></td>
+                <td>Explore the stunning beaches and islands of <strong>Phuket</strong>, Thailand's paradise.</td>
+            </tr>
+            <tr>
+                <td><strong>New York</strong></td>
+                <td><em>USA</em></td>
+                <td>Experience the vibrant energy of <strong>New York</strong> City, the city that never sleeps.</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="containerheh">
+        <h2>Send us a message</h2>
+        <form action="redir.html" method="POST" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+    
+            <input class="submit-button" type="submit" value="Submit" onclick="open">
+        </form>
+    </div>
+    <div class="back-to-top-button" onclick="scrollToTop()"><div></div></div>
+    <footer>
+        <p>Contact us at: contact@travelchan.com</p>
+        &copy; 2023 Travel Chan
+    </footer>
+</body>
+</html>
